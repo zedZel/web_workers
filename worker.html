@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            var xhr = new XMLHttpRequest();
+            console.log(xhr);
+            xhr.open("GET", 'http://machopoker.hu/wp-content/uploads/2013/06/irina-shayk-bikini-model-high-quality-bannedinhollyood-41.jpg', false );
+            xhr.send();
+            var resp = xhr.responseText;
+            console.log(resp);
+
+          // function sayHI() {
+          //   worker.postMessage({'cmd': 'start', 'msg': 'Hi'});
+          // }
+
+          // function stop() {
+          //   // worker.terminate() from this script would also stop the worker.
+          //   worker.postMessage({'cmd': 'stop', 'msg': 'Bye'});
+          // }
+
+          // function unknownCmd() {
+          //   worker.postMessage({'cmd': 'foobard', 'msg': '???'});
+          // }
+
+          // var worker = new Worker('worker.js');
+
+          // worker.addEventListener('message', function(e) {
+          //   document.getElementById('result').textContent = e.data;
+          //   console.log(e.data);
+          // }, false);
+        
+        // var img, i, precache = ["http://images.forwallpaper.com/files/images/a/acb8/acb8e726/671835/fruit.jpg", "http://www.thewallpapers.org/photo/75181/Fresh-Fruits-073.jpg", "http://www.hdwallpaperscool.com/wp-content/uploads/2013/11/fruit-hd-wallpapers-cool-widescreen-desktop-photos.jpg", "http://freedesignfile.com/upload/2013/07/fresh_fruits_05.jpg", "http://images.wisegeek.com/dragon-fruit-cut-in-half.jpg", "http://www.wallsave.com/wallpapers/1600x1200/vegtabel/447238/vegtabel-fruit-best-zone-447238.jpg", "http://images4.fanpop.com/image/photos/20400000/Fruits-fruit-20460977-1600-1200.jpg"];
+        // for(i = 0; i < precache.length; i++) {
+        //     var img = new Image();
+        //     img.id = "precache" + [i];
+        //     img.src = precache[i];
+        //     console.log(img);
+        // }
+        </script>
+    </head>
+    <body>
+        <script>
+        </script>
+        <button onclick="sayHI()">Say HI</button>
+        <button onclick="unknownCmd()">Send unknown command</button>
+        <button onclick="stop()">Stop worker</button>
+        <output id="result"></output>
+        </div>
+    </body>
+</html>
