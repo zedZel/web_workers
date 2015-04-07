@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-var url = "http://ip.jsontest.com/?callback=showMyIP";
+var url = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=fuzzy%20monkey";
 xhr.open("GET", url, true );
 xhr.send();
 if(xhr.onreadystatechange === 4) {
